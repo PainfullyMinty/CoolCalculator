@@ -1,0 +1,7 @@
+C:\Users\wilsonar\source\repos\CoolCalculator\CoolCalculator\bin\Debug\CoolCalculator.exe.config
+C:\Users\wilsonar\source\repos\CoolCalculator\CoolCalculator\bin\Debug\CoolCalculator.exe
+C:\Users\wilsonar\source\repos\CoolCalculator\CoolCalculator\bin\Debug\CoolCalculator.pdb
+C:\Users\wilsonar\source\repos\CoolCalculator\CoolCalculator\obj\Debug\CoolCalculator.csprojResolveAssemblyReference.cache
+C:\Users\wilsonar\source\repos\CoolCalculator\CoolCalculator\obj\Debug\CoolCalculator.csproj.CoreCompileInputs.cache
+C:\Users\wilsonar\source\repos\CoolCalculator\CoolCalculator\obj\Debug\CoolCalculator.exe
+C:\Users\wilsonar\source\repos\CoolCalculator\CoolCalculator\obj\Debug\CoolCalculator.pdb
