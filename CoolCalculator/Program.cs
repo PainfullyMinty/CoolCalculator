@@ -43,7 +43,7 @@ namespace CoolCalculator
             Console.WriteLine("Enter variable a: ");
             string aChoiceStr = Console.ReadLine();
 
-            if (!int.TryParse(aChoiceStr, out int aChoice))
+            if (!double.TryParse(aChoiceStr, out double aChoice))
             {
                 Console.WriteLine("Invalid input! Please enter a number.");
                 goto A_ENTER;
@@ -54,7 +54,7 @@ namespace CoolCalculator
             Console.WriteLine("Enter variable b: ");
             string bChoiceStr = Console.ReadLine();
 
-            if (!int.TryParse(bChoiceStr, out int bChoice))
+            if (!double.TryParse(bChoiceStr, out double bChoice))
             {
                 Console.WriteLine("Invalid input! Please enter a number.");
                 goto B_ENTER;
@@ -65,16 +65,16 @@ namespace CoolCalculator
             Console.Write(Pythag(aChoice, bChoice));
             Console.WriteLine();
             Console.WriteLine("Press any key to continue");
-            Console.ReadKey();
+            Console.ReadLine();
 
             Menu();
         }
 
-        static double Pythag(int a, int b)
+        static double Pythag(double a, double b)
         {
-            int aSqr = a * a;
-            int bSqr = b * b;
-            int cSqr = aSqr + bSqr;
+            double aSqr = a * a;
+            double bSqr = b * b;
+            double cSqr = aSqr + bSqr;
 
             double c = Math.Sqrt(cSqr);
 
